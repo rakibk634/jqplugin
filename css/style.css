@@ -1,0 +1,161 @@
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: Anton-Regular;
+  src: url(../fonts/Anton/Anton-Regular.ttf);
+}
+
+@font-face {
+  font-family: Rajdhani-Bold;
+  src: url(../fonts/rajdhani/Rajdhani-Bold.ttf);
+}
+
+@font-face {
+  font-family: Rajdhani-SemiBold;
+  src: url(../fonts/rajdhani/Rajdhani-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Rajdhani-SemiBold;
+  src: url(../fonts/rajdhani/Rajdhani-Regular.ttf);
+}
+
+/* Common start */
+
+body {
+  background-color: rgb(26, 29, 27);
+  font-family: PTSans-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 20px;
+}
+
+/* Common end */
+
+/* Header start */
+header {
+  background-color: black;
+  padding: 30px 0;
+}
+
+.logo {
+  font-family: Anton-Regular;
+  font-size: 40px;
+  font-weight: 200;
+  color: #99d98c !important;
+}
+
+/* Counter start */
+
+.let_count {
+  margin-top: 100px;
+}
+
+h2 {
+  margin-bottom: 50px;
+  font-family: Rajdhani-Bold;
+  font-size: 80px;
+  font-weight: 700;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.box {
+  padding: 100px 0;
+  background-color: #f25f5c;
+}
+
+.box1 {
+  padding: 100px 0;
+  background-color: #ffc857;
+}
+
+.box2 {
+  padding: 100px 0;
+  background-color: #70c1b3;
+}
+
+h3 {
+  font-family: Rajdhani-Bold;
+  font-size: 40px !important;
+  font-weight: 400;
+  color: black !important;
+}
+
+.num {
+  margin-top: 15px !important;
+  font-family: Anton-Regular;
+  font-size: 90px;
+  font-weight: 200;
+  color: black;
+  line-height: 100px;
+}
+
+/* 2nd counter starts */
+.incremental-counter .num {
+  background: #f8f8f8 none repeat scroll 0 0;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #00aae6;
+  display: inline-block;
+  height: 64px;
+  line-height: 62px;
+  margin: 0 4.5px;
+  position: relative;
+  text-align: center;
+  top: -1px;
+  width: 50px;
+  font-size: 45px;
+  font-size: 3.72625em;
+  font-weight: 700;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.45);
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+.incremental-counter .num::before {
+  background: #00aae6;
+  content: "";
+  display: block;
+  height: 1px;
+  left: -1px;
+  margin: -0.5px 0 0;
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  width: auto;
+}
+/* 2nd counter end */
+
+.yu {
+  margin: 150px 0;
+  padding: 200px 0;
+  background-image: url(../Images/jol.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.yi {
+  margin: 150px 0;
+}
+
+.wtext {
+  padding: 32px 35px;
+  background-color: #f94144;
+}
+
+.wwp {
+  font-family: Raleway-Regular;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+}
